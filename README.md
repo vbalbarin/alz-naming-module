@@ -1,4 +1,4 @@
-# ceng-azure-organization-alz-naming
+# Resuable Naming ALZ Naming Module
 
 Provider-free Terraform module for consistent Azure Landing Zone resource names and identifiers.
 
