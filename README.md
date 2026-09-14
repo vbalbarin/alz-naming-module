@@ -8,7 +8,7 @@ By default, QA, `non-prod`, production, and `prod` omit the environment infix. A
 
 ```hcl
 module "alz_naming" {
-  source = "git::ssh://git@github.com/ASU/ceng-azure-organization-alz-naming.git?ref=v1.0.0"
+  source = "git::ssh://git@github.com/vbalbarin/alz-naming-module.git?ref=v1.0.0"
 
   environment = "dev"
   location    = "westus"
