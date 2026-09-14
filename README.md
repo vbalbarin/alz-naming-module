@@ -1,6 +1,6 @@
 # ceng-azure-organization-alz-naming
 
-Provider-free Terraform module for consistent ASU Azure Landing Zone resource names and identifiers.
+Provider-free Terraform module for consistent Azure Landing Zone resource names and identifiers.
 
 The output keys preserve the custom naming contract from the US SLED ALZ hub-and-spoke example. The deployment pipeline selects a workspace and its matching tfvars file; that file supplies the semantic `environment` value to this module. The module does not inspect Terraform workspace names or filenames.
 
